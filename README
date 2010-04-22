@@ -1,1 +1,5 @@
-experimenting with more intelligent Django views
+Experimenting with more intelligent Django views
+
+- returns a context variable dictionary from views
+- decorator chooses best template
+- jinja2 allows for more complex logic in the templates for specific mobile rendering
