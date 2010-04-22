@@ -18,5 +18,4 @@ class UserAgentTestCase(TestCase):
     
     def test_dumb_and_quirky(self):
         response = self._do_request("dumb; quirky")
-        print response.content
         self.assertContains(response, "and you're quirky")
